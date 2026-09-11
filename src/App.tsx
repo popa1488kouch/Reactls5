@@ -1,11 +1,10 @@
-import ProductCard from "./Components/ProductCard/productcard";
-
+import MovieCard from "./Components/MovieCard/moviecard";
 function App() {
   return (
     <div style={{ padding: '20px', display: 'flex', flexWrap: 'wrap' }}>
-      <ProductCard name="Беспроводные наушники" price={4990} />
-      <ProductCard name="Умные часы" price={12990} />
-      <ProductCard name="Портативная колонка" price={3500} />
+      <MovieCard title="Интерстеллар" genre="Научная фантастика" year={2014} />
+      <MovieCard title="Начало" genre="Триллер/Экшен" year={2010} />
+      <MovieCard title="Темный рыцарь" genre="Комикс/Драма" year={2008} />  
     </div>
   );
 }
